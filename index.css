@@ -1,0 +1,86 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(21, 21, 21);
+    color: #fff;
+}
+
+.header {
+    width: 100%;
+}
+
+.header__body {
+    display: flex;
+    padding: 25px;
+}
+
+.header__left {
+    background-color: red;
+    margin-right: 20px;
+    display: flex;
+    padding: 5px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.header__left-logo {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+
+.header__left-logo-2 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.header__left-recording-text {
+    font-family: Arial, 'Helvetica';
+}
+
+.header__right {
+    width: 100%;
+    background-color: #343434;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.header__right-logo-nickname {
+    display: flex;
+}
+
+.header__right-logo {
+    width: 40px;
+    height: 20px;
+    background-color: #fff;
+    border: 3px solid #dd0a0a;
+    margin-left: 20px;
+}
+
+.header__right-nickname {
+    font-family: Arial, 'Helvetica';
+    color: #fff;
+    margin-left: 20px;
+}
+
+.header__right-stop-transletion {
+    font-family: Arial, 'Helvetica';
+    color: #0d56aa;
+    margin-right: 20px;
+}
